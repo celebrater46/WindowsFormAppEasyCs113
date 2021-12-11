@@ -19,7 +19,7 @@ namespace WindowsFormsAppEasyCs113
         public static int PORT = 10000;
 
         public Form1()
-        {
+        { 
             InitializeComponent();
             IPHostEntry ih = Dns.GetHostEntry(HOST);
 
